@@ -1,0 +1,10 @@
+@import './styles/comon';
+@import './styles/variables';
+
+.App {
+	user-select: none;
+	padding: 0 120px;
+	background-size: cover;
+	background-repeat: repeat;
+	overflow: hidden;
+}

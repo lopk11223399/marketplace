@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss'
+import Navbar from './Components/Navbar/Navbar'
+import Header from './Components/Header/Header'
+
+import background from './images/background/Super NFT landing page.png'
+import Description from './Components/Description/Description'
+import LiveAuction from './Components/LiveAuction/LiveAuction'
+import RoadMap from './Components/RoadMap/RoadMap'
+import TopCollection from './Components/TopCollection/TopCollection'
+import OurCreator from './Components/OurCreator/OurCreator'
+import Footer from './Components/Footer/Footer'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div
+			style={{
+				backgroundImage: `url("${background}")`,
+			}}
+			className='App'>
+			<Navbar />
+			<Header />
+			<Description />
+			<LiveAuction />
+			<RoadMap />
+			<TopCollection />
+			<OurCreator />
+			<Footer />
+		</div>
+	)
 }
 
-export default App;
+export default App
