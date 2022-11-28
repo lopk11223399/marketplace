@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Describe Project
+
+![](/src/images/background/Super%20NFT%20marketplace.jpg)
+
+Link design: [https://www.figma.com/file/GK5ZNTDdu89fxa8ZaaJ0J2/Super-NFT-Marketplace-design-(Community)?node-id=1%3A16&t=PDls13uxzWusTL1R-1](https://www.figma.com/file/GK5ZNTDdu89fxa8ZaaJ0J2/Super-NFT-Marketplace-design-(Community)?node-id=1%3A16&t=PDls13uxzWusTL1R-1)
+
 ## Available Scripts
 
 In the project directory, you can run:
