@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import Vector from '../../images/background/Vector 31.png'
 import TagItem from './TagItem'
+import { Group } from '../../images/icons/icons'
 
 const Tags = [
 	{ nameTag: 'All' },
@@ -43,32 +44,7 @@ function HeaderLeft() {
 					<button className='button__line'>
 						Create NFTs
 						<span className='button__line--icon'>
-							<svg
-								viewBox='0 0 30 18'
-								fill='none'
-								xmlns='http://www.w3.org/2000/svg'>
-								<path
-									d='M1 9L29 9'
-									stroke='white'
-									strokeWidth='2'
-									strokeLinecap='round'
-									strokeLinejoin='round'
-								/>
-								<path
-									d='M21 17L29 9'
-									stroke='white'
-									strokeWidth='2'
-									strokeLinecap='round'
-									strokeLinejoin='round'
-								/>
-								<path
-									d='M21 1L29 9'
-									stroke='white'
-									strokeWidth='2'
-									strokeLinecap='round'
-									strokeLinejoin='round'
-								/>
-							</svg>
+							<Group />
 						</span>
 					</button>
 				</div>
